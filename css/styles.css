@@ -14,7 +14,7 @@
     z-index: 1;
 }
 
-.first__white__element {
+.first {
     position: absolute;
     width: 137px;
     height: 137px;
@@ -25,7 +25,7 @@
     border-radius: 32px;
 }
 
-.second__white__element {
+.second {
     position: absolute;
     width: 42px;
     height: 42px;
@@ -36,7 +36,7 @@
     border-radius: 32px;
 }
 
-.third__white__element {
+.third {
     position: absolute;
     width: 90px;
     height: 90px;
@@ -47,7 +47,7 @@
     border-radius: 32px;
 }
 
-.fourth__white__element {
+.fourth {
     position: absolute;
     width: 83px;
     height: 83px;
@@ -58,7 +58,7 @@
     border-radius: 32px;
 }
 
-.fifth__white__element {
+.fifth {
     position: absolute;
     width: 25px;
     height: 25px;
@@ -69,7 +69,7 @@
     border-radius: 32px;
 }
 
-.six__white__element {
+.six {
     position: absolute;
     width: 51px;
     height: 51px;
@@ -80,7 +80,7 @@
     border-radius: 32px;
 }
 
-.seven__white__element {
+.seven {
     position: absolute;
     width: 90px;
     height: 90px;
@@ -91,7 +91,7 @@
     border-radius: 32px;
 }
 
-.eight__white__element {
+.eight {
     position: absolute;
     width: 90px;
     height: 90px;
@@ -102,7 +102,7 @@
     border-radius: 32px;
 }
 
-.nine__white__element {
+.nine {
     position: absolute;
     width: 42px;
     height: 42px;
@@ -113,7 +113,7 @@
     border-radius: 32px;
 }
 
-.ten__white__element {
+.ten {
     position: absolute;
     width: 63px;
     height: 63px;
@@ -145,11 +145,11 @@
     transition: transform .3s ease-in;
 }
 
-.color__nft__text {
+.nft_text {
     color: #750505;
 }
 
-.container__nft {
+.container_nft {
     position: absolute;
     width: 1400px;
     margin: 680px 0;
@@ -164,7 +164,7 @@
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.card__nft {
+.card_nft {
     position: relative;
     display: flex;
     justify-content: center;
@@ -177,12 +177,12 @@
 
 }
 
-.card__nft:hover .card__nft.delete {
+.card_nft:hover .card_nft.delete {
     transition: all .3s linear;
     bottom: -50px;
 }
 
-.card__nft.delete {
+.card_nft.delete {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -196,7 +196,7 @@
     transition: all .3s linear;
 }
 
-.btn__basket {
+.btn_basket {
     display: flex;
     justify-content: center;
     width: 25px;
@@ -206,7 +206,7 @@
     cursor: pointer;
 }
 
-.card__nft__continuance {
+.nft_continuance {
     display: flex;
     padding: 5px;
     width: 170px;
@@ -215,12 +215,12 @@
     border-radius: 12px;
 }
 
-.card__nft__continuance img {
+.nft_continuance img {
     max-width: 100%;
     border-radius: 12px;
 }
 
-.name__card {
+.name {
     position: absolute;
     top: 15px;
     left: 20px;
@@ -230,7 +230,7 @@
     font-weight: 400;
 }
 
-.description__card {
+.description {
     position: absolute;
     bottom: 20px;
     top: 200px;

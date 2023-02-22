@@ -1,5 +1,5 @@
-const addBtn = document.querySelector('.add__nft');
-const containerOfNft = document.querySelector('.container__nft');
+const addBtn = document.querySelector('.add_nft');
+const containerOfNft = document.querySelector('.container_nft');
 
 let nftInBlock = [];
 
@@ -13,16 +13,16 @@ function cardsRender () {
     let result = '';
 
     for (let i = 0; i < nftInBlock.length; i++) {
-        result += `<div class='card__nft'>
-<div class='delete card__nft'>
-<button class='btn__basket' onclick='deleteNft(${nftInBlock[i].id})' type='button'>
+        result += `<div class='card_nft'>
+<div class='delete card_nft'>
+<button class='btn_basket' onclick='deleteNft(${nftInBlock[i].id})' type='button'>
 <img src='../img/basket.png' alt='png'>
 </button>
 </div>
-<div class='card__nft__continuance'>
-<div class='name__card'>${nftInBlock[i].name}</div>
+<div class='nft_continuance'>
+<div class='name'>${nftInBlock[i].name}</div>
 <img src='${nftInBlock[i].link}' alt='link'>
-<div class="description__card">${nftInBlock[i].description}</div>
+<div class="description">${nftInBlock[i].description}</div>
 </div>
 </div>`
     }
