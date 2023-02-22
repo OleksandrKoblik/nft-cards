@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    width: 1400px;
+    height: 1772px;
+    margin: 0 auto;
+    background: #000000;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.first__white__element {
+    position: absolute;
+    width: 137px;
+    height: 137px;
+    margin: 68px 74px;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+
+.second__white__element {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    margin: 47px 454px ;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+
+.third__white__element {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin: 23px 730px;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+
+.fourth__white__element {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    margin: 68px 1134px;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+
+.fifth__white__element {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin: 453px 91px;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+
+.six__white__element {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 337px 238px;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+
+.seven__white__element {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin: 484px 364px;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+
+.eight__white__element {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin: 484px 895px;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+
+.nine__white__element {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    margin: 294px 1134px;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+
+.ten__white__element {
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    margin: 453px 1217px;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+
+.btn{
+    position: absolute;
+    width: 264px;
+    height: 73px;
+    margin: 301px 570px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.04em;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+.btn:hover {
+    transform: scale(1.2);
+    transition: transform .3s ease-in;
+}
+
+.color__nft__text {
+    color: #750505;
+}
+
+.container__nft {
+    position: absolute;
+    width: 1400px;
+    margin: 680px 0;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    justify-content: flex-start;
+
+
+
+    background: #000000;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card__nft {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 53px;
+    width: 178px;
+    height: 251px;
+    border-radius: 12px;
+    background: #3E3E3E;
+    margin: 20px;
+
+}
+
+.card__nft:hover .card__nft.delete {
+    transition: all .3s linear;
+    bottom: -50px;
+}
+
+.card__nft.delete {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    left: auto;
+    width: 178px;
+    background: #fff;
+    height: 50px;
+    bottom: 0;
+    z-index: -1;
+    transition: all .3s linear;
+}
+
+.btn__basket {
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.card__nft__continuance {
+    display: flex;
+    padding: 5px;
+    width: 170px;
+    height: 195px;
+    background: #3E3E3E;
+    border-radius: 12px;
+}
+
+.card__nft__continuance img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.name__card {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 70px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.description__card {
+    position: absolute;
+    bottom: 20px;
+    top: 200px;
+    left: 20px;
+
+    width: 70px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+
